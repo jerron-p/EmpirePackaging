@@ -1,0 +1,132 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #ededed;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+    
+}
+
+.pstyle {
+    border-radius: 25px;
+    background-color: #2277c7;
+    color: #ededed;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.picStyle {
+    background-color: #ff0033;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container {
+    position: relative;
+}
+
+.pic-text-back {
+    background-color: rgba(34, 119, 199, .5);
+}
+.pic-text {
+    color: #ededed;
+}
+.pic-clear {}
+
+.fadeIn {
+    animation: fadeIn 0.35s;
+}
+.fadeOut {
+    animation: fadeOut 0.35s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+/*Positioning each of the product descriptions*/
+.pic-text-stick {
+    position: absolute;
+    text-align: center;
+    bottom: 70px;
+    left: 79px;
+    right: auto;
+    width: 330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pic-text-pouch {
+    position: absolute;
+    text-align: center;
+    bottom: 70px;
+    left: 79px;
+    right: auto;
+    width: 330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pic-text-bottle {
+    position: absolute;
+    text-align: center;
+    bottom: 105px;
+    left: 79px;
+    right: auto;
+    width: 330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pic-text-pill {
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left: 79px;
+    right: auto;
+    width: 330px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pill-credit {
+    font-size: xx-small;
+    text-align: right;
+}
+.page-breaker {
+    width: 100%;
+
+}
