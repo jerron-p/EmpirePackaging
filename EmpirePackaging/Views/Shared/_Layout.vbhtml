@@ -30,17 +30,11 @@
         </div>
     </div>
     <!--End of Navbar-->
-    <div class="container-fluid body-content">
+    <div>
         @RenderBody()
         <hr />
-        <footer>
-            <div class="nav navbar-nav navbar-fixed-bottom" style="background-color: #222222">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
+        <footer class="fix-footer">
+            @Html.ActionLink("Home", "Index", "Home") | @Html.ActionLink("About", "About", "Home") | @Html.ActionLink("Contact", "Contact", "Home")
         </footer>
     </div>
 

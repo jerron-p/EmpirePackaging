@@ -186,10 +186,10 @@
     <Content Include="Content\Pictures\bottle.jpg" />
     <Content Include="Content\Pictures\genericWarehouse.jpg" />
     <Content Include="Content\Pictures\genericWarehouse2.jpg" />
-    <Content Include="Content\Pictures\longpoint.jpg" />
     <Content Include="Content\Pictures\pills.jpg" />
     <Content Include="Content\Pictures\standPouch.jpg" />
     <Content Include="Content\Pictures\stickPack.jpg" />
+    <Content Include="Content\Pictures\worker.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

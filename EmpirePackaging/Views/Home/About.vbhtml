@@ -2,7 +2,7 @@
     ViewData("Title") = "About Us"
 End Code
 
-<div class="container">
+<div class="container body-content">
     <h2>@ViewData("Title").</h2>
     <br />
     <br />
