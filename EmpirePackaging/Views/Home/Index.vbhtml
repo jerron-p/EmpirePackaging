@@ -39,7 +39,7 @@ End Code
     </script>
 </div>
 <div class="jumbotron">
-    <h1 class="h1 text-center">Your Next Co-pack Manufacturing Partner</h1>
+    <h1 class="h1 text-center">Your Co-packing Partner</h1>
 </div>
 <div class="container body-content">
     <br />
@@ -61,19 +61,19 @@ End Code
         <h2 class="h2 paragraph-title">Our Services</h2>
         <div class="row">
             <div class="column">
-                <p class="pstyle text-center">STICK PACKS</p>
+                <h3 class="h3 text-center">STICK PACKS</h3>
                 <img ID="stickPack" onmouseover="stickPackOver()" class="img-responsive center-block img-rounded service-images-selected" src="~/Content/Pictures/stickPack.jpg" alt="Stick Pack" />
             </div>
             <div class="column">
-                <p class="pstyle text-center">STAND POUCHES</p>
+                <h3 class="h3 text-center">STAND POUCHES</h3>
                 <img ID="standPouch" onmouseover="standPouchOver()" class="img-responsive center-block img-rounded service-images-notSelected" src="~/Content/Pictures/standPouch.jpg" alt="Stand Pouch" />
             </div>
             <div class="column">
-                <p class="pstyle text-center">BOTTLES</p>
+                <h3 class="h3 text-center">BOTTLES</h3>
                 <img ID="bottlePicture" onmouseover="bottlePictureOver()" class="img-responsive center-block img-rounded service-images-notSelected" src="~/Content/Pictures/bottle.jpg" alt="Bottle" />
             </div>
             <div class="column">
-                <p class="pstyle text-center">CAPSULES & TABLETS</p>
+                <h3 class="h3 text-center">CAPSULES & TABLETS</h3>
                 <img id="pillPicture" onmouseover="pillPictureOver()" runat="server" class="img-responsive center-block img-rounded service-images-notSelected" src="~/Content/Pictures/pills.jpg" alt="Pills Picture" />
             </div>
         </div>
@@ -88,9 +88,9 @@ End Code
     <br />
     <br />
     <div>
-        <h2 class="h2 paragraph-title">Ready To Make A Deal</h2>
+        <h2 class="h2 paragraph-title">Do We Have Your Interest?</h2>
         <div class="row">
-            <p class="pstyle col-lg-5">This is where we would put the call to action. I need to put more text so that the paragraph looks a little bit more realistic. What I type in here doesn't matter because it will all be replaced later. Let's check out how it looks now.</p>
+            <p class="pstyle col-lg-5">Are you ready for your co-packaging partner to help you bring your products to market? We are here for you! We specialize in providing high-quality co-packaging solutions for stick packs, stand pouches, liquid jars, tablets, and capsules. Our experienced team is dedicated to meeting your unique needs and exceeding your expectations. Contact us today to learn more about how we can help you achieve your co-packaging goals. We look forward to hearing from you!</p>
             <img src="~/Content/Pictures/worker.jpg" class="img-responsive col-lg-5" />
         </div>
         <br />
