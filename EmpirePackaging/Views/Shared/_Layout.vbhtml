@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- The following line is for the tab title-->
     <title>@ViewBag.Title - Empire Packaging</title>
     @Styles.Render("~/Content/css")
@@ -30,7 +30,7 @@
         </div>
     </div>
     <!--End of Navbar-->
-    <div class="container body-content">
+    <div class="container-fluid body-content">
         @RenderBody()
         <hr />
         <footer>
